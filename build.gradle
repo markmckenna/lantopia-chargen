@@ -51,19 +51,20 @@ subprojects {
 }
 
 apply plugin: 'idea'
+
 // apply plugin: 'jacoco'
 // apply plugin: 'pmd'
 // apply plugin: 'publishing'
-// 
-// idea {
-//     project {
-//         jdkName = '1.7'
-//         languageLevel = '1.7'
-//         vcs = 'Git'
-//     }
-// 
-//     module {
-//         downloadJavadoc = true
-//         downloadSources = true
-//     }
-// }
+
+idea {
+    project {
+        jdkName = '1.7'
+        languageLevel = '1.7'
+        vcs = 'Git'
+    }
+
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
