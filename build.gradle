@@ -50,7 +50,7 @@ subprojects {
     }
 }
 
-// apply plugin: 'idea'
+apply plugin: 'idea'
 // apply plugin: 'jacoco'
 // apply plugin: 'pmd'
 // apply plugin: 'publishing'
